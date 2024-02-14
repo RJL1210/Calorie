@@ -152,4 +152,4 @@ cython_debug/
 #.idea/
 
 *.json
-./caloriecount/config.py
+./config.py
