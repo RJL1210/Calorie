@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'counter',
+    'mathfilters',
 ]
 
 MIDDLEWARE = [
@@ -123,6 +124,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'caloriecount/static/')]
 
 NINJA_API_KEY= ninja_api
+GOV_API_KEY= gov_api
 
 
 # Default primary key field type
